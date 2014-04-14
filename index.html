@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Things to Do</title>
+	<link type="text/css" rel="stylesheet" href="liststyle.css"/>
+	<link rel="icon" href="check.jpg" type="image/x-icon" />
+	<link rel="shortcut icon" href="check.jpg" type="image/x-icon" />
+	
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src = "addlistitems.js" ></script>
+	<link href='http://fonts.googleapis.com/css?family=Sofadi+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Concert+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Englebert' rel='stylesheet' type='text/css'>
+	
+</head>
+<body> 
+ <div id="wrapper"> 
+    
+    <h2>Things to Do</h2>
+	
+	<br/>
+	
+    <form id="myList">
+     
+        <input id="itembox" type="text" name="newentry" />  
+                
+	    <input type="submit" class="button" value="Add" />
+        
+    </form>
+	<p>Click Add or press Enter to add items.</p>
+	<p>Drag and drop items to rearrange list order.</p>
+	<p>Double click an item to remove it.</p>
+	<ol id="livelist" class="sortable">
+	<!--these are the 2 items that are supposed to be hard-coded-->
+	  <li><input type="checkbox" /><label>Grocery shopping</label></li>
+	  
+	  <li><input type="checkbox" checked="checked"/><label>Mail package</label></li>
+	</ol>
+	
+</div>
+	<br/>
+	<br/>
+	
+	
+	
+
+
+
+</body>
+</html>
+

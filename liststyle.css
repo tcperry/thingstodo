@@ -1,0 +1,98 @@
+body {
+background-color: #e0f9fc;
+font-family: 'Englebert', Arial, sans-serif;
+color: #191919;
+
+
+}
+input[type=checkbox] + label {
+  font-size:20px;
+  
+} 
+input[type=checkbox]:checked + label  {
+  color: #54a725;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+
+
+.sortable .ui-selected {
+background: #5bec2e; 
+}
+
+
+
+h2 {
+text-align: center;
+font-size: 35px;
+}
+p{
+font-size:20px;
+margin-left:170px;
+line-height:7px;
+padding-top:8px;
+}
+ol {font-size:20px;margin-left:150px;margin-top:50px;}
+li {line-height:18px;padding:5px;}
+
+#left {float:left;}
+#right {float:right;}
+img {max-width:100px;margin:40px;}
+#wrapper {
+padding: 60px 10px 800px 10px;
+margin-right: auto;
+margin-left:auto;
+
+width: 800px;
+
+height: 100%;
+
+background: url('gbl-pad2.jpg') no-repeat;
+background-size: 60%;
+background-attachment: fixed;
+background-position:center top;
+
+
+
+}
+
+form {
+width: 300px;
+margin-right:auto;
+margin-left:auto;
+margin-top:-22px;
+
+}
+
+
+
+.button {  
+    width: 100px;  
+    height: 30px;  
+  
+    margin: 10px auto;  
+    position: relative;  
+  
+    background: #54a725;  
+    
+  
+  
+    -webkit-border-radius: 25px;  
+    -moz-border-radius: 25px;  
+    border-radius: 25px;  
+  
+    border: 1px solid #4864a9;  
+  
+    color: #FFF;  
+    font-size: 18px;
+    font-family: inherit;
+	
+    text-shadow: 1px 1px 0px rgba(255,255,255,.5);  
+  
+    -webkit-box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, .2);      
+    box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, .2);  
+  
+    position: relative;  
+	z-index: 1; 
+}  
