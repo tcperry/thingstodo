@@ -47,18 +47,38 @@ margin-left:auto;
 
 width: 800px;
 
-height: 50%;
+height:60%;
+padding-bottom:35px;
 
 /*background: url('gbl-pad2.jpg') no-repeat;
-background-size: 60%;
+background-size: 30%;
 background-attachment: fixed;
 background-position:center top;*/
-background: url('gbl-top.jpg') top center no-repeat,
-            url('gbl-middle.jpg') center center repeat-y,
-			url('gbl-bottom.jpg') center bottom no-repeat;
+position: relative;
+z-index: 2;
+background: url(gbl-top.jpg) center top no-repeat,
+           
+            url(gbl-bothalf.jpg) bottom center no-repeat;
+			
+			
 
 
 }
+
+#wrapper:before {
+content: '';
+position: absolute;
+z-index: -1; /* push it to the background */
+top: 161px; /* position it off the top background */
+right: 0;
+bottom: 165px; /* position it off the bottom background */
+left: 0;
+background:  url(gbl-middle.jpg) center center repeat-y;
+}
+
+/*#top {background: url('gbl-top.jpg') top center no-repeat;}
+#middle {background: url('gbl-middle.jpg') center center no-repeat;}
+#bottom {background: url('gbl-bottom.jpg') bottom center no-repeat;}*/
 
 form {
 width: 300px;
