@@ -40,7 +40,7 @@ li {line-height:18px;padding:5px;}
 #right {float:right;}
 img {max-width:100px;margin:40px;}
 #wrapper {
-/*padding: 60px 10px 800px 10px;*/
+
 padding-top:60px;
 margin-right: auto;
 margin-left:auto;
@@ -50,10 +50,7 @@ width: 800px;
 height:60%;
 padding-bottom:35px;
 
-/*background: url('gbl-pad2.jpg') no-repeat;
-background-size: 30%;
-background-attachment: fixed;
-background-position:center top;*/
+
 position: relative;
 z-index: 2;
 background: url(gbl-top.jpg) center top no-repeat,
@@ -76,9 +73,7 @@ left: 0;
 background:  url(gbl-middle.jpg) center center repeat-y;
 }
 
-/*#top {background: url('gbl-top.jpg') top center no-repeat;}
-#middle {background: url('gbl-middle.jpg') center center no-repeat;}
-#bottom {background: url('gbl-bottom.jpg') bottom center no-repeat;}*/
+
 
 form {
 width: 300px;
