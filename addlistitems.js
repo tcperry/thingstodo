@@ -17,6 +17,22 @@ $('input').keypress(function(e){
     }
 });
 
+$('li').dblclick(function() {
+      
+      $(this).fadeOut('fast');
+	  
+	  
+  });
+  
+  $(function() {
+
+
+ $( ".sortable" ).sortable();
+
+ $( ".sortable" ).disableSelection();
+
+ });
+  
   
 
 
